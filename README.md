@@ -2,6 +2,20 @@
 Project in applied bioinformatics
 "Reducing noise in protein multialignments"
 
+Annika Bendes (910427-4288) abendes@kth.se
+</br>
+Hanna Hassan (920414-0165) hanhas@kth.se
+
+#Structure of the project
+/data: Contains all test data
+</br>
+/doc: Contains all documents including report and notebooks
+</br>
+/results: Our noise reduced data
+</br>
+/src: Source code
+
+
 #Project description:
 Multialignments are noisy. Homologous proteins can contain regions that are not inherited and should therefore not be aligned, and other regions may have evolved so fast that the correct multialignment is impossible to infer. In order to get rid of such problematic regions in subsequential analysis, in particular for phylogeny inference, "bad" columns are often removed using tools such as GBlocks or TrimAl.
 
